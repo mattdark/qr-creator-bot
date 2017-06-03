@@ -6,7 +6,7 @@ import logging
 import operator
 from qrgenerator import createqr
 
-updater = Updater(token='382419430:AAHfsECjCHZJ8pmebstbfPCJHwRHZ0uEpn0')
+updater = Updater(token='TOKEN')
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
